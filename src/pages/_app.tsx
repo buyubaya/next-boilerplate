@@ -1,5 +1,6 @@
-import "../styles/App.scss";
-import type { AppProps } from "next/app";
+import '../styles/App.less';
+import '../styles/App.scss';
+import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
